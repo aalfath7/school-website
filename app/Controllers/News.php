@@ -14,12 +14,21 @@ class News extends BaseController
     }
     public function index(): string
     {
-        $news = $this->newsModel->findAll();
+        // $news = $this->newsModel->findAll();
 
         $data = [
-            'news' => $news
+            'news' => $this->newsModel->getNews()
         ];
 
         return view('pages/news', $data);
+    }
+    public function detail($slug)
+    {
+        $data = [
+            'news' => $news = $this->newsModel->getNews($slug)
+        ];
+        
+
+        return view('pages/news-detail', $data);
     }
 }
