@@ -14,5 +14,7 @@
     <div class="px-2 py-24 sm:px-32">
         <?= $this->renderSection('content'); ?>
     </div>
+
+    <?= $this->include('./components/footer'); ?>
 </body>
 </html>

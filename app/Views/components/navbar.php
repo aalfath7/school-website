@@ -1,4 +1,4 @@
-<div class="navbar bg-base-100 shadow sm:px-32 fixed">
+<div class="navbar bg-base-100 shadow sm:px-32 fixed z-50">
     <div class="navbar-start">
         <div class="dropdown">
             <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
@@ -23,7 +23,7 @@
                 <li><a href="/news">News</a></li>
             </ul>
         </div>
-        <a class="btn btn-ghost text-xl">School Webs</a>
+        <a href="/" class="btn btn-ghost text-xl">Schoola</a>
     </div>
     <div class="navbar-center hidden lg:flex">
         <ul class="menu menu-horizontal px-1">
